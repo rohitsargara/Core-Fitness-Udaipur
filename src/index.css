@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Fraunces', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FBF8F3;
+    color: #1E1D1B;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Subtle architectural plaster and paper grain texture */
+.bg-plaster {
+  background-color: #FBF8F3;
+  background-image: radial-gradient(rgba(188, 90, 54, 0.03) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.bg-sand-warm {
+  background-color: #F4EFE6;
+}
+
+.border-hairline {
+  border-color: rgba(30, 29, 27, 0.08);
+}
+
+.text-balance-header {
+  text-wrap: balance;
+}
+
+/* Smooth custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FBF8F3;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8CEBE;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BC5A36;
+}

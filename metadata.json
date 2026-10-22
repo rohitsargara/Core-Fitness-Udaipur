@@ -1,0 +1,6 @@
+{
+  "name": "Core Fitness Udaipur",
+  "description": "Sophisticated warm contemporary website for Core Fitness Gym in Parshuram Choraha, Udaipur. Strength training, CrossFit, combat sports, personal coaching, and real schedule details.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
